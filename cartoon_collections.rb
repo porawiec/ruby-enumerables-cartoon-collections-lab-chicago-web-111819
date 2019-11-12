@@ -5,7 +5,9 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
-  
+  capital_shout = []
+  planeteer_calls.map do | x |
+    capital_shout.push()
   
 end
 
