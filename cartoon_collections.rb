@@ -21,7 +21,7 @@ end
 def find_the_cheese(strings_array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if { |x| x.include?(cheese_types)}
-    { |y| y.find 
+    strings_array.find { |y| y == 
   else
     nil
   end
