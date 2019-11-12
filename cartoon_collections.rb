@@ -9,7 +9,7 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do | x |
     capital_shout.push("#{x}.capitalize!")
   end
-  capital_shout
+ p capital_shout
 end
 
 def long_planeteer_calls(assorted_words)
