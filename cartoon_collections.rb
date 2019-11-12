@@ -7,7 +7,7 @@ end
 def summon_captain_planet(planeteer_calls)
   capital_shout = []
   planeteer_calls.map do | x |
-    capital_shout.push("#{x}".capitalize +"!")
+    capital_shout.push(x.capitalize +"!")
   end
  p capital_shout
 end
